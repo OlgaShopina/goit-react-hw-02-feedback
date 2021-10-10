@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  background-color: rgb(72, 72, 247);
+  border-radius: 8px;
+  color: #eef;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list:not(:last-child) {
+  margin-right: 15px;
+}

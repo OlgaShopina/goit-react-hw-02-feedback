@@ -1,0 +1,27 @@
+.box {
+  width: 70%;
+  height: 20px;
+  border: 1px solid #88a;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100px;
+}
+
+.text {
+  font-size: 16px;
+  font-style: italic;
+  color: #334;
+  text-shadow: 1px 1px 4px #88a;
+  text-align: center;
+}
+
+.text:not(:last-child) {
+  margin-right: 8px;
+}
